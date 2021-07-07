@@ -59,27 +59,8 @@ stepper.setCurrentPosition(0);
             myReceiver.enableIRIn();
       Serial.println("Flush Sequence Stand-By");        
   }
- /*   Serial.println("Flush Sequence Engaged");
-    digitalWrite(LED, HIGH);
-    
-    
-      stepper.setCurrentPosition(0);
-  
-  while (stepper.currentPosition() != 4096) {
-    stepper.setSpeed(4000);
-    stepper.runSpeed();
 
-    
-  }
-  delay(300);
-  
-  stepper.setCurrentPosition(0);
-
-  while (stepper.currentPosition() !=-4096) {
-    stepper.setSpeed(-4000);
-    stepper.runSpeed();*/
-   
-  }
+}
     
     
  
